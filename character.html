@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <title>Genshin Impact Characters</title>
+</head>
+<body>
+    <h1>Genshin Impact Characters</h1>
+    {{range .}}
+        <h2>{{.Name}}</h2>
+        <p><strong>Element:</strong> {{.Element}}</p>
+        <p><strong>Rarity:</strong> {{.Rarity}}</p>
+        <p>{{.Description}}</p>
+    {{end}}
+</body>
+</html>
